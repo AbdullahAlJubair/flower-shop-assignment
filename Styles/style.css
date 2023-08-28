@@ -92,7 +92,7 @@ body {
 }
 /*Shop Info Section Design*/
 .shop-info {
-    max-width: 900px;
+    max-width: 800px;
     margin: 100px auto 0px;
     display: flex;
     justify-content: space-evenly;
@@ -107,4 +107,55 @@ body {
     width: 60px;
     height: 60px;
 
+}
+/*Deals Banner Section Design*/
+.deals-banner {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #E554730D;
+    padding: 80px 150px;
+    align-items: center;
+}
+.deals-column {
+    width: 50%;
+}
+.color-text {
+    color: #E55473;
+}
+.deals-column > .section-title {
+    text-align: center;
+}
+.deals-column > .section-text {
+    text-align: center;
+}
+.deals-column > .primary-btn {
+    position: relative;
+    left: 50%;
+}
+.deals-column img {
+    position: relative;
+    left: 25%;
+    width: 300px;
+    height: 400px;
+}
+/*Instagram Section Design*/
+.instagram {
+    max-width: 900px;
+    margin: 100px auto 0px;
+    text-align: center;
+}
+.instagram-contents {
+    width: 500px;
+    margin: 0 auto;
+}
+.instagram-feed {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.instagram-feed img {
+    width: 210px;
+    height: 240px;
 }
