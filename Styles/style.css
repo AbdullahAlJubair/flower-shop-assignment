@@ -45,7 +45,7 @@ body {
 }
 /*Featured Section Design*/
 .featured {
-    width: 900px;
+    max-width: 900px;
     margin: 150px auto 0px;
     text-align: center;
 }
@@ -89,4 +89,22 @@ body {
     font-size: 14px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+/*Shop Info Section Design*/
+.shop-info {
+    max-width: 900px;
+    margin: 100px auto 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2727270D;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+.shop-info-box {
+    text-align: center;
+}
+.shop-info-box img {
+    width: 60px;
+    height: 60px;
+
 }
