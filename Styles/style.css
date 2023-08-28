@@ -26,7 +26,7 @@ body {
 .section-text { /*All Section Text Design*/
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px; /* 166.667% */
 }
@@ -193,4 +193,39 @@ body {
     font-size: 15px;
     font-weight: 700;
     border: 0;
+}
+/*Footer Section Design*/
+.footer {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #111010;
+}
+.footer-container {
+    width: 700px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+.footer-title {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 800;
+}
+.footer-container>.section-text {
+    color: #FFFFFFE5;
+}
+.footer-container>.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.credit {
+    background-color: #E55473;
+    padding: 10px;
+}
+.credit p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFFE5;
+    margin: 0;
 }
