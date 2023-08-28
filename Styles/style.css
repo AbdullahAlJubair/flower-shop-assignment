@@ -1,3 +1,45 @@
 * {
     font-family: 'Lato', sans-serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+/*Banner Section Design*/
+.banner {
+    height: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 80px;
+    background-color: #E554731A;
+}
+.banner-content {
+    width: 525px;
+}
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.banner-text {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.banner-image img {
+    width: 435px;
+}
+.primary-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+}
