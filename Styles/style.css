@@ -159,3 +159,38 @@ body {
     width: 210px;
     height: 240px;
 }
+/*Newsletter Section Design*/
+.newsletter {
+    max-width: 700px;
+    margin: 100px auto 0px;
+    padding: 50px 100px;
+    text-align: center;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.newsletter>.section-title, .newsletter>.section-text {
+    margin: 0px;
+}
+.newsletter>form>input[type="email"] {
+    width: 500px;
+    height: 25px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 2px;
+} 
+.newsletter>form>input[type="submit"] {
+    padding: 15px 20px;
+    border: 0;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+    background: #E55473;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0;
+}
