@@ -47,7 +47,7 @@ nav li:hover a{
     background-color: #E554731A;
 }
 .banner-content {
-    width: 525px;
+    width: 600px;
 }
 h1.banner-title {
     color: #272727;
@@ -185,7 +185,7 @@ h1.banner-title {
     margin: 2px;
     color: #E55473;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 900;
 }
 .product-box > .primary-btn {
     margin-top: 10px;
