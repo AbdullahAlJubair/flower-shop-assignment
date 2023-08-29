@@ -17,6 +17,7 @@ nav h3{
     color: #272727;
     font-size: 38px;
     font-weight: 800;
+    cursor: pointer;
 }
 nav ul{
     display: flex;
@@ -82,7 +83,7 @@ nav li:hover a{
 /*Featured Section Design*/
 .featured {
     max-width: 900px;
-    margin: 150px auto 0px;
+    margin: 100px auto 0px;
     text-align: center;
 }
 .featured-contents {
@@ -130,7 +131,7 @@ nav li:hover a{
 /*Shop Info Section Design*/
 .shop-info {
     max-width: 800px;
-    margin: 100px auto 0px;
+    margin: 50px auto 0px;
     display: flex;
     justify-content: space-evenly;
     background-color: #2727270D;
@@ -145,9 +146,54 @@ nav li:hover a{
     height: 60px;
 
 }
+/*Product Section Design*/
+.product {
+    max-width: 850px;
+    margin: 100px auto 0px;
+    text-align: center;
+}
+.product-contents {
+    width: 500px;
+    margin: 0 auto;
+}
+.product-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-box {
+    width: 230px;
+    height: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.product-box img {
+    width: 230px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+.product-name {
+    margin: 2px;
+    font-size: 14px;
+    color: #111010;
+    cursor: pointer;
+}
+.product-name:hover {
+    text-decoration: underline;
+}
+.price {
+    margin: 2px;
+    color: #E55473;
+    font-size: 15px;
+}
+.product-box > .primary-btn {
+    margin-top: 10px;
+}
 /*Deals Banner Section Design*/
 .deals-banner {
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     background-color: #E554730D;
