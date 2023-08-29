@@ -23,15 +23,11 @@ nav ul{
     display: flex;
     align-items: center;
 }
-nav .menu ul li {
+nav ul li {
     list-style: none;
     margin-right: 25px;
 }
-nav .nav-icon ul li {
-    list-style: none;
-    margin-right: 15px;
-}
-nav li a{
+nav ul li a{
     text-decoration: none;
     color: #272727;
     font-size: 16px;
@@ -43,31 +39,32 @@ nav li:hover a{
 }
 /*Banner Section Design*/
 .banner {
-    height: 440px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 100px 80px;
+    padding: 100px 80px 0px;
     background-color: #E554731A;
 }
 .banner-content {
     width: 525px;
 }
-.banner-title {
+h1.banner-title {
     color: #272727;
     font-size: 60px;
     font-weight: 900;
     line-height: 60px;
+    margin: 0 auto 25px;
 }
 .section-text { /*All Section Text Design*/
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
 }
 .banner-image img {
-    width: 435px;
+    width: 420px;
+    height: 500px;
 }
 .primary-btn {
     padding: 10px 15px;
@@ -94,6 +91,7 @@ nav li:hover a{
     color: #272727;
     font-size: 30px;
     font-weight: 900;
+    margin: 0px;
 }
 .featured-flowers {
     display: flex;
@@ -154,7 +152,7 @@ nav li:hover a{
 }
 .product-contents {
     width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 .product-container {
     margin-top: 20px;
@@ -187,6 +185,7 @@ nav li:hover a{
     margin: 2px;
     color: #E55473;
     font-size: 15px;
+    font-weight: 700;
 }
 .product-box > .primary-btn {
     margin-top: 10px;
@@ -214,7 +213,7 @@ nav li:hover a{
 }
 .deals-column > .primary-btn {
     position: relative;
-    left: 45%;
+    left: 40%;
 }
 .deals-column img {
     position: relative;
@@ -304,7 +303,6 @@ nav li:hover a{
     font-weight: 400;
 }
 .credit {
-    background-color: #E55473;
     padding: 10px;
 }
 .credit p{
@@ -312,4 +310,8 @@ nav li:hover a{
     font-weight: 400;
     color: #FFFFFFE5;
     margin: 0;
+}
+.credit p strong {
+    padding-left: 5px;
+    color: #E55473;
 }
