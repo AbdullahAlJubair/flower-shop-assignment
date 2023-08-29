@@ -51,7 +51,7 @@ nav li:hover a{
 }
 h1.banner-title {
     color: #272727;
-    font-size: 50px;
+    font-size: 48px;
     font-weight: 900;
     line-height: 55px;
     margin: 0 auto 25px;
@@ -189,6 +189,11 @@ h1.banner-title {
 }
 .product-box > .primary-btn {
     margin-top: 10px;
+}
+.product-box > .primary-btn:hover {
+    background-color: #fff;
+    border: 2px solid #E55473;
+    color: #E55473;
 }
 /*Deals Banner Section Design*/
 .deals-banner {
